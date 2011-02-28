@@ -1,0 +1,19 @@
+a:link { color: #83807d; text-decoration: none }
+a:visited { color: #83807d; text-decoration: none }
+a:hover { color: #83807d; text-decoration: underline }
+a:active { color: #ff0000; text-decoration: none }
+
+p { margin-top: 0px; margin-bottom: 10px }
+td,table { font-size: 12px; color: #847f74; line-height: 160%; font-family: verdana;}
+
+.input {
+	font-size:9pt;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#545454;
+	border-width:1pt;
+	border-style:solid;
+	background-color:#ffffff;
+	border-color:#cccccc;
+}
+
+.gbtn {cursor:hand; font-size:12px; font-family: ±¼¸²; BACKGROUND-COLOR: #737373; BORDER-BOTTOM: #737373 2px solid; BORDER-LEFT: #737373 2px solid; BORDER-RIGHT: #737373 2px solid; BORDER-TOP: #737373 2px solid; COLOR: #ffffff; HEIGHT:18px; }

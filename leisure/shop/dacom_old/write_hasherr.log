@@ -1,0 +1,47 @@
+Array
+(
+    [msgtype] => 
+    [transaction] => tanyw2008122316005852444
+    [mid] => tanywiz
+    [oid] => 081223155730870
+    [amount] => 37000
+    [currency] => 410
+    [paytype] => SC0030
+    [paydate] => 20081223160058
+    [buyer] => 테스트
+    [productinfo] => 081223155730870
+    [respcode] => C000
+    [respmsg] => 결제 성공
+    [buyerssn] => 
+    [buyerid] => test
+    [buyeraddress] => 
+    [buyerphone] => 0101231231
+    [buyeremail] => help@test.com
+    [receiver] => 테스트
+    [receiverphone] => 011-9406-3827
+    [deliveryinfo] => 서울 서초구 양재동   350-6번지
+    [producttype] => 081223155730870
+    [productcode] => 081223155730870
+    [financecode] => 03
+    [financename] => 기업
+    [authnumber] => 
+    [cardnumber] => 
+    [cardexp] => 
+    [cardperiod] => 
+    [nointerestflag] => 
+    [transamount] => 
+    [exchangerate] => 
+    [pid] => 8301061221715
+    [accountnumber] => 
+    [accountowner] => 정한규
+    [telno] => 
+    [payer] => 
+    [cflag] => 
+    [tamount] => 
+    [camount] => 
+    [bankdate] => 
+    [hashdata] => 
+    [hashdata2] => 93ffbab95fea5bc9e6573b3a8c4d94f1
+    [seqno] => 
+    [receiptnumber] => 0
+)

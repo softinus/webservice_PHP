@@ -1,0 +1,38 @@
+<?
+if($edit_width == "") $edit_width="100%";
+if($edit_height == "") $edit_height="300"; 
+?>
+<table width="98%" align="center">
+  <tr>
+    <td>
+      <textarea name="shopguide" rows="15" cols="20" style="width:<?=$edit_width?>; height:<?=$edit_height?>;" class="webedit"><?=$edit_content?></textarea>
+    </td>
+  </tr>
+</table>
+
+<script language="javascript">
+<!--
+   var Editor_Root_Dir	=	"/admin/webedit3/";
+   var appName		      = navigator.appName;
+   var appVersion	      = parseFloat(navigator.appVersion.split("MSIE")[1]);
+   var bitUseEditor
+   
+   	if(appName != "Microsoft Internet Explorer" || appVersion < 5.5){
+   		bitUseEditor	= false;
+   	}else{
+   		bitUseEditor	= true;
+   	}
+   	
+   if(bitUseEditor){
+   	document.write('<scrip'+'t language="javascript" src="'+Editor_Root_Dir+'WIZEditor.js"></scrip'+'t>');
+   }
+-->
+</script>
+
+<script language="javascript">
+<!--
+	if(bitUseEditor){
+		Editor_New_Generate('shopguide');
+	}
+-->
+</script>
