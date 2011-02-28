@@ -1,0 +1,179 @@
+<html style="width:410; height:460;">
+
+
+<!--
+//****************************************************************************************
+//*
+//*		프로그램명	: HTML 에디터 Ver2.0.0.1 그림 삽입 파일
+//*		제작자		: 이원문 (Knhead , 큰머리)
+//*		제작일		: 2003년 10월 21일
+//*		수정		: 
+//*		
+//*		특징		: 순수 Javascript로 위직 에디터 구현
+//*		저작권		: 저작권은 이원문(Knhead, 큰머리)에 있음.
+//*					  소스 수정 사용시 제작자의 허락이 있어야 함.
+//*					  원본 그대로 사용시는 허락 없어도 사용 가능
+//*
+//*		주의		: 이 소스로 인한 피해 및 손해 배상은 제작자가 아닌 사용자에게 있습니다.
+//*		
+//****************************************************************************************
+-->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>플래쉬삽입　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　.
+</title>
+<style type="text/css">
+	body	{font-size: 9pt; font-family: 굴림, 돋음; font-style:  normal; font-weight: normal;}
+	td		{font-size: 9pt; font-family: 굴림, 돋음; font-style:  normal; font-weight: normal;}
+	pre		{font-size: 9pt; font-family: 굴림, 돋음; font-style:  normal; font-weight: normal;}
+	input, select, textarea, button	{font-size: 9pt; font-family: 굴림, 돋음; font-style:  normal; font-weight: normal;}
+	
+	input, select	{width:90%;}
+	textarea		{width:100%; height:50;}
+	button			{width:75; cursor:hand;}
+	
+	image			{cursor:hand;}
+	
+	.threedface	{background-color: threedface;}
+	.align_select	{border: 2px solid #000080;}
+</style>
+</head>
+
+<script language="JScript">
+	//**	기본 환경 불러 오기
+		var opener = window.dialogArguments;
+		var Editor_Root_Dir	= opener.Editor_Root_Dir;
+		var ObjName			= location.search.substring(1,location.search.length);
+		
+		var Config			= opener.document.all[ObjName].Config;						//**	설정 정보
+		var EditorObj		= opener.document.all['Editor__'+ ObjName +'__EditorPad'];	//**	에디터 객체
+		var EditorDoc		= EditorObj.contentWindow.document;
+		
+	//**	취소
+		function FUN_Cancle(){
+			window.close();
+			return;
+		}
+
+
+	//**	확인
+		function FUN_Ok(){
+			var FormObj	=	document.forms[0];
+			
+			f_Src		=	FormObj.f_Src.value;
+			f_Width		=	FormObj.f_Width.value;
+			f_Height	=	FormObj.f_Height.value;
+			
+			wmode			= 'transparent';
+			
+			var ImageHTML = '';
+			var ImageLink = '';
+			
+			if(f_Src != "" && f_Src != "http://" && f_Src != "http:///") {
+				//**	Flash 삽입				
+					ImageHTML += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width='+f_Width+' height='+f_Height+' VIEWASTEXT ID="Object1">';				
+					ImageHTML += '<param name="movie" value='+f_Src+' />';					
+					ImageHTML += '<param name="quality" value="best">';			
+					ImageHTML += '<param name="wmode" value='+wmode+'>';
+					ImageHTML += '<embed src='+f_Src+' quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+f_Width+'" height="'+f_Height+'" wmode="'+wmode+'"></embed>';
+					ImageHTML += '</object>';
+					
+			}		
+						
+			//**	에디터 창에 HTML 소스 삽입
+				opener.Editor_InsertHTML(ObjName, ImageHTML);
+							
+			//**	창닫기
+				window.close();
+
+			
+		}
+	
+	//**	플래쉬 주소
+		function FUN_flashsrc(This){
+			var imagesrc	= This.value;
+			
+			if(imagesrc != 'http://'){
+				document.images['tmpFlash'].src	=	imagesrc;
+			}
+		}
+	//**	플래쉬 크기 - 가로
+		function FUN_flashWidth(This){
+			var flashwidth	= This.value;
+			
+			document.images['tmpFlashWidth'].src	=	flashwidth;
+		}
+	//**	플래쉬 크기 - 세로 
+		function FUN_flashHeight(This){
+			var flashheight	= This.value;
+			
+			document.images['tmpFlashHeight'].src	=	flashheight;
+		}
+	
+</script>
+
+<body style="background: threedface; color: windowtext; margin: 0px; border-style: none;">
+<center>
+<form name="Insert_Flash">
+
+<table border="0" cellpadding="5" cellspacing="1" width="390" align="center">
+	<tr>
+		<td valign="top">
+		<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="390">
+			<tr>
+				<td height="20">
+				<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="390">
+					<tr>
+						<td width="30">일반</td>
+						<td width="360"><hr></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center" id="Flash_Box" style="display : none;">
+				<table border="0" cellpadding="0" cellspacing="0" width="90%" height="45" style="border-collapse: collapse">
+					<tr>
+						<td width="20%">플래쉬경로:</td>
+						<td width="80%">
+						<input type="text" name="f_Src" size="20" value="http://" style="width:100%;" OnPropertyChange="javascript:FUN_flashsrc(this);" OnFocus="javascript:this.select();"></td>
+					</tr>
+					<tr>
+						<td width="20%">플래쉬크기:</td>
+						<td width="80%">
+							<input type="text" name="f_Width" size="20" value="" style="width:70;" OnPropertyChange="javascript:FUN_flashWidth(this);" OnFocus="javascript:this.select();">
+							<input type="text" name="f_Height" size="20" value="" style="width:70;" OnPropertyChange="javascript:FUN_flashHeight(this);" OnFocus="javascript:this.select();">
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			
+			<tr>
+			  <td align="center"><iframe name="InsertFlash" src="Editor_InsertFlash.php" width="400" height="70"></iframe></td>
+			</tr>
+			<!--tr>
+				<td width="390" align="right">
+				<button name="InsertTable_Ok" OnCLick="document.InsertFlash.frm.submit();" unselectable="on">확인</button>
+				&nbsp;
+				<button name="InsertTable_Calcle" OnClick="javascript:FUN_Cancle();" unselectable="on">취소</button>
+				</td>
+			</tr//-->
+		</table>
+		</td>
+	</tr>
+</table>
+</form>
+
+<!--	플래쉬	-->
+	<img name="tmpFlash" border="0" style="display : none;">
+	<img name="tmpFlashWidth" border="0" style="display : none;">
+	<img name="tmpFlashHeight" border="0" style="display : none;">
+<!--	플래쉬	-->
+
+</body>
+
+</html>

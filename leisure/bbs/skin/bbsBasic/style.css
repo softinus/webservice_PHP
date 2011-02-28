@@ -1,0 +1,17 @@
+a:link {text-decoration:none;color:#4A4A4A;}
+a:visited {text-decoration:none; color:#4A4A4A;} 
+a:hover {text-decoration:none;color:#009933;} 
+
+p {margin-top:0px;margin-bottom:0px;}
+td {font-size:12px;font-family:"±¼¸²","µ¸¿ò";color:#4A4A4A;line-height:160%} 
+table {border-collapse:collapse;}
+
+.input {
+	font-size:9pt;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#545454;
+	border-width:1pt;
+	border-style:solid;
+	background-color:#ffffff;
+	border-color:#cccccc;
+}

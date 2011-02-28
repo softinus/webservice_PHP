@@ -1,0 +1,75 @@
+0214-113213 - 12516 - T00072EBVfDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-113213 - 12516 - T00072EBVfDlSKHT - MSG : PG_서버_접속__정상
+0214-113213 - 12516 - T00072EBVfDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-113213 - 12516 - T00072EBVfDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-113213 - 12516 - T00072EBVfDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-113424 - 12803 - T00072EBVfDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-113424 - 12803 - T00072EBVfDlSKHT - MSG : PG_서버_접속__정상
+0214-113424 - 12803 - T00072EBVfDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-113424 - 12803 - T00072EBVfDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-113424 - 12803 - T00072EBVfDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-113447 - 12804 - T00072EBVfDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-113447 - 12804 - T00072EBVfDlSKHT - MSG : PG_서버_접속__정상
+0214-113447 - 12804 - T00072EBVfDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-113447 - 12804 - T00072EBVfDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-113447 - 12804 - T00072EBVfDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-113533 - 12926 - T00072EBYsDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-113533 - 12926 - T00072EBYsDlSKHT - MSG : PG_서버_접속__정상
+0214-113533 - 12926 - T00072EBYsDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-113533 - 12926 - T00072EBYsDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-113533 - 12926 - T00072EBYsDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-113629 - 13047 - T00072EBZrDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-113629 - 13047 - T00072EBZrDlSKHT - MSG : PG_서버_접속__정상
+0214-113629 - 13047 - T00072EBZrDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-113629 - 13047 - T00072EBZrDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-113629 - 13047 - T00072EBZrDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-114030 - 13532 - T00072EBdpDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214112920468]+log_level=[3]
+0214-114030 - 13532 - T00072EBdpDlSKHT - MSG : PG_서버_접속__정상
+0214-114030 - 13532 - T00072EBdpDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-114030 - 13532 - T00072EBdpDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-114030 - 13532 - T00072EBdpDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-114721 - 14637 - T00072EBkYDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214114627981]+log_level=[3]
+0214-114722 - 14637 - T00072EBkYDlSKHT - MSG : PG_서버_접속__정상
+0214-114722 - 14637 - T00072EBkYDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-114722 - 14637 - T00072EBkYDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-114722 - 14637 - T00072EBkYDlSKHT - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리card_cd=CCBCcard_name=BC카드acqu_cd=CCBCacqu_name=BC카드card_no=9420124200004476mcht_taxno=1138521083mall_taxno=1138521083tno=20110214953772amount=162000escw_yn=Yvan_cd=VNKCapp_time=20110214114722van_apptime=20110214114722app_no=91610537bizx_numb=739448948quota=00noinf=Npg_txid=0214114722MP09AI60NHCB0000001620000091610537join_cd=0000partcanc_yn=Yisp_partner_cd=000100121727051]
+0214-114755 - 14638 - T00072EBkYDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214114627981]+log_level=[3]
+0214-114755 - 14638 - T00072EBkYDlSKHT - MSG : PG_서버_접속__정상
+0214-114755 - 14638 - T00072EBkYDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-114756 - 14638 - T00072EBkYDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-114756 - 14638 - T00072EBkYDlSKHT - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리card_cd=CCBCcard_name=BC카드acqu_cd=CCBCacqu_name=BC카드card_no=9420124200004476mcht_taxno=1138521083mall_taxno=1138521083tno=20110214953774amount=162000escw_yn=Yvan_cd=VNKCapp_time=20110214114755van_apptime=20110214114755app_no=17432699bizx_numb=739448948quota=00noinf=Npg_txid=0214114755MP09AA60O6ZK0000001620000017432699join_cd=0000partcanc_yn=Yisp_partner_cd=000100121727051]
+0214-115625 - 15734 - T00072EBtpDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214115542205]+log_level=[3]
+0214-115625 - 15734 - T00072EBtpDlSKHT - MSG : PG_서버_접속__정상
+0214-115625 - 15734 - T00072EBtpDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-115625 - 15734 - T00072EBtpDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-115625 - 15734 - T00072EBtpDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-115829 - 15977 - T00072EBvGDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214115542205]+log_level=[3]
+0214-115829 - 15977 - T00072EBvGDlSKHT - MSG : PG_서버_접속__정상
+0214-115829 - 15977 - T00072EBvGDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-115829 - 15977 - T00072EBvGDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-115829 - 15977 - T00072EBvGDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-120000 - 16099 - T00072EBxNDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214115915367]+log_level=[3]
+0214-120000 - 16099 - T00072EBxNDlSKHT - MSG : PG_서버_접속__정상
+0214-120001 - 16099 - T00072EBxNDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-120001 - 16099 - T00072EBxNDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-120001 - 16099 - T00072EBxNDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-120124 - 16370 - T00072EC0gDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214115915367]+log_level=[3]
+0214-120124 - 16370 - T00072EC0gDlSKHT - MSG : PG_서버_접속__정상
+0214-120124 - 16370 - T00072EC0gDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-120124 - 16370 - T00072EC0gDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-120124 - 16370 - T00072EC0gDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0214-120233 - 16493 - T00072EC1fDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214120130347]+log_level=[3]
+0214-120233 - 16493 - T00072EC1fDlSKHT - MSG : PG_서버_접속__정상
+0214-120234 - 16493 - T00072EC1fDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-120234 - 16493 - T00072EC1fDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-120234 - 16493 - T00072EC1fDlSKHT - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리card_cd=CCBCcard_name=BC카드acqu_cd=CCBCacqu_name=BC카드card_no=9420124200004476mcht_taxno=1138521083mall_taxno=1138521083tno=20110214953793amount=113400escw_yn=Yvan_cd=VNKCapp_time=20110214120234van_apptime=20110214120234app_no=30029694bizx_numb=739448948quota=00noinf=Npg_txid=0214120234MP09AD6170YV0000001134000030029694join_cd=0000partcanc_yn=Yisp_partner_cd=000100121727051]
+0214-125847 - 24049 - T00072ECwBDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214125804942]+log_level=[3]
+0214-125848 - 24049 - T00072ECwBDlSKHT - MSG : PG_서버_접속__정상
+0214-125848 - 24049 - T00072ECwBDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-125853 - 24049 - T00072ECwBDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-125853 - 24049 - T00072ECwBDlSKHT - MSG : TX_ENDED - res=[res_cd=CC72res_msg=카드사 TIME-OUTtrade_seq=20110214953827card_cd=ISKCcard_name=기타카드]
+0214-125936 - 24170 - T00072ECx1DlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110214125804942]+log_level=[3]
+0214-125936 - 24170 - T00072ECx1DlSKHT - MSG : PG_서버_접속__정상
+0214-125936 - 24170 - T00072ECx1DlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0214-125937 - 24170 - T00072ECx1DlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0214-125937 - 24170 - T00072ECx1DlSKHT - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리card_cd=CCBCcard_name=BC카드acqu_cd=CCBCacqu_name=BC카드card_no=9420124200004476mcht_taxno=1138521083mall_taxno=1138521083tno=20110214953828amount=1004escw_yn=Nvan_cd=VNKCapp_time=20110214125936van_apptime=20110214125936app_no=74969832bizx_numb=739448948quota=00noinf=Npg_txid=0214125936MP09AI638DUN0000000010040074969832join_cd=0000partcanc_yn=Yisp_partner_cd=000100121727051]

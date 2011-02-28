@@ -1,0 +1,10 @@
+0131-152311 -  4098 - T00071VFMgDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110131152232894]+log_level=[3]
+0131-152311 -  4098 - T00071VFMgDlSKHT - MSG : PG_서버_접속__정상
+0131-152311 -  4098 - T00071VFMgDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0131-152312 -  4098 - T00071VFMgDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0131-152312 -  4098 - T00071VFMgDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]
+0131-152628 -  4246 - T00071VFPGDlSKHT - MSG : TX_START - site_cd=[T0007]+tx_cd=[00100000]+ordr_idxx=[110131152506722]+log_level=[3]
+0131-152628 -  4246 - T00071VFPGDlSKHT - MSG : PG_서버_접속__정상
+0131-152628 -  4246 - T00071VFPGDlSKHT - MSG : PG_서버_요청_전문_전송__정상
+0131-152628 -  4246 - T00071VFPGDlSKHT - MSG : PG_서버_응답_전문_수신__정상
+0131-152628 -  4246 - T00071VFPGDlSKHT - MSG : TX_ENDED - res=[res_cd=8129res_msg=테스트거래 금액오류(일시불 1,000~5,004 할부 50,004)]

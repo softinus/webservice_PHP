@@ -1,0 +1,80 @@
+<? include "../../inc/common.inc"; ?>
+<? include "../../inc/util.inc"; ?>
+<? include "../../inc/shop_info.inc"; ?>
+<? include "../../inc/admin_check.inc"; ?>
+<?
+
+$sql = "select * from wiz_dayproduct where prdcode='$prdcode'";
+$result = mysql_query($sql) or die($sql);
+$row = mysql_fetch_array($result);
+
+$prdname = $row[prdname];
+$prddate = substr($row[selldate],0,10) . " ~ " . substr($row[selllastdate],0,10) ;
+$conprice = $row[conprice];
+$sellprice = $row[sellprice];
+$discount_per = $row[discount_per];
+?>
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+	<title>자동작성 메일확인</title>
+	<meta name="generator" content="editplus">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+<script type="text/javascript">
+window.onload=function(){
+	var doc = document.getElementById("mainContent").innerHTML;
+	window.clipboardData.setData('Text',doc)
+	alert("현재 작성된 메일의 HTML코드가 복사되었습니다.\n\n Ctrl + V 로 붙여넣기 하세요!")
+}
+</script>
+
+<style>
+td {font-size:12px;font-family:"굴림","돋움";color:#4a4a4a;line-height:160%} 
+table {border-collapse:collapse;}
+</style>
+</head>
+<body>
+<!--div id 안에 메일내용이 들어가야함. div삭제하시면 곤란함.-->
+<div id="mainContent">
+<table height="100%" cellspacing=0 cellpadding=0 width=642 align=center border=0>
+	<tbody>
+		<tr>
+			<td valign=top>
+				<table cellspacing=0 cellpadding=0 border=0>
+					<tbody>
+						<tr>
+							<td><img src="http://u50i50.com/images/mailimg/top_06.gif"></td>
+						</tr>
+						<tr>
+							<td background=http://u50i50.com/images/mailimg/bg_line.gif>
+								<table cellspacing=0 cellpadding=0 width=642 border=0>
+									<tbody>
+										<tr>
+											<td style="padding-right: 0px; padding-left: 30px; padding-bottom: 10px; padding-top: 10px; line-height:24px;">
+												상품명 : <span id="prdname"><?=$prdname?></span><br />
+												판매기간 : <span id="prddate"><?=$prddate?></span><br />
+												정가 : <span id="conprice"><?=number_format($conprice)?>원</span><br />
+												할인율 : <span id="discount_per"><?=$discount_per?>%</span><br />
+												판매가 : <span id="sellprice"><?=number_format($sellprice)?>원</span>
+											</td>
+											<td valign=bottom align=right width=190><img src="http://u50i50.com/images/mailimg/img_06.gif"></td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="http://u50i50.com/images/mailimg/bottom.gif"></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>
